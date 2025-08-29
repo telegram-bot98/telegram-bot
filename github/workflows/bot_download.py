@@ -12,8 +12,8 @@ logging.basicConfig(
     level=logging.INFO
 )
 
-TOKEN = os.environ.get("8197996560:AAFshyi0AYVcVULxwAANzNBz9RM7-9Y9kHc", "")
-CHANNEL_USERNAME = os.environ.get("@p_y_hy", "")
+TOKEN = os.environ.get("", "")
+CHANNEL_USERNAME = os.environ.get("", "")
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     if not await is_subscribed(update, context):
